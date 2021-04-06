@@ -1,0 +1,60 @@
+body {
+  background-color: lightgray;
+  color: black;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.filter {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.art-container {
+  margin: 20px;
+  padding: 1rem;
+  border: 3px solid #DDA0DD;
+  border-radius: 0px;
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.art-image {
+  width: 30%;
+  height: auto;
+  display: none;
+}
+
+.art-image.active {
+  display: block;
+}
+
+.art-year {
+  display: none;
+}
+
+.art-year.active {
+  display: block;
+}
